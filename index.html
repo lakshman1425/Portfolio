@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshmanasamy portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1fedcc6e87.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#about">SKILLS</a></li>
+                    <li><a href="#about">EDUCATION</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick = "openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <P></P>
+                <h1>Hi, I'm <span>Lakshmanasamy</span> <br>
+                    UG Student</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- ==============about==========-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                   <img src="images/33.png.jpg">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-titile">About me</h1>
+                   <br>
+                   <p class="par">
+                    Hardworking and energitic individual with<br>
+                    relevant technical knowledge. Seeking work <br> 
+                    in a well reputed organization where I can <br>
+                    use my learnings to achieve the organization<br>
+                     objectives and grow with the success of company.<br></p>
+                     <br>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education </p>
+                        <p class="tab-links"onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links"onclick="opentab('projects')">Projects</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Bannari Amman Institute Of Technology </span>
+                                <br> B.Tech Food Technology (Batch 2024)<br>
+                                CGPA 8.17 (Till 5th semaster)
+                            </li>
+                                  <br>
+                                  <br>
+                            <li><span>Ponnu Matriculation Higher Secondary School</span><br>
+                                SSLC (2018) // 86.6% <br>
+                                HSC  (2020) // 78.3% 
+                            </li>
+                            
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Technical skills </span><br>
+                                Java <br>
+                                C,C++ <br>
+                                HTML/CSS/JS <br>
+                                Problem-Solving <br>
+                                Figma,Photoshop<br>
+                                  </li>
+                                 
+                            <li><span>Softskills</span><br>
+                                Time management <br>
+                                Communication<br>
+                                Leadership<br>
+                                Adaptability <br>
+                                Creativity <br></li>
+                            
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>Milk Monitoring Unit </span><br>
+                                A device used to measure the quantity of milk being <br>
+                                collected by an individual cow<br>
+                            </li>
+                                  <br>
+                            <li><span>Herbal Milk Shots</span><br>
+                                A healthy snack used for special medical purpose by<br>
+                                adding spices and herbs as value addition. <br>
+                                Creativity <br>
+                            </li>
+                            
+                        </ul>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!--============services===================-->
+
+
+
+<!--=================Porjects ===========-->
+<!--<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+         <div class="work">
+            <img src="images/ms1.png.jpg">
+            <div class="layer">
+                <h3>Herbal Milk Shots</h3>
+                <p>A healthy snack used for special medical 
+                 purpose by adding spices and herbs as value addition</p>
+                <a href="#"> <i class="fa-regular fa-up-right-from-square"></i></i></a> 
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/ms1.png.jpg">
+            <div class="layer">
+                <h3>Milk puff</h3>
+                <p> A healthy snack prepared using excess milk in milk industry at low cost.</p>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/ms1.png.jpg">
+            <div class="layer">
+                <h3>Milk puff</h3>
+                <p> A healthy snack prepared using excess milk in milk industry at low cost.</p>
+            </div>
+         </div>
+    </div>
+</div>
+-->
+<!-- ============contact============-->
+<div id="contact">
+    <div class = "container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1> 
+                <p><i class="fa-solid fa-envelopes-bulk"></i>lakshmanasamy.fd20@bitsathy.ac.in</p> 
+                <p><i class="fa-solid fa-phone-volume"></i>9344064160</p> 
+                <div class="social-icons">
+                    <a href="https://instagram.com/lakshmanasamy_p?igshid=YmJhNjkzNzY="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/lakshman-samy-b85262245/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100089221970205&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                </div>
+               <!-----<a href="#" download class="btn btn2">Download CV</a>-->
+                </div>
+             <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                      <input type="text" name="Name" placeholder="Your name" required>
+                      <input type="text" name="Email" placeholder="your email" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                   </form>
+                   <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by Lakshmanasamy P <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzSgwNtuyf8fr7JQalsDEucmDBWyph5u6G2XRboCPe6DLko0WcGDeTQbIBamqHFUFr0/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout (function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
